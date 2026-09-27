@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local high scores (the default location is ~/.snake_highscores.json, but a
+# custom --highscore-file inside the project should never be committed)
+*highscores.json
+*highscores.json.tmp
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
